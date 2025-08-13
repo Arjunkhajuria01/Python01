@@ -12,3 +12,9 @@ f = open('day31 Sets.py','r' )
 text = f.read()
 print(text)
 f.close()
+
+with open( 'day31 Sets.py', 'w') as f:
+ f.write ("Hey im inside the file")
+ 
+
+
