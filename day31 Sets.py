@@ -20,6 +20,3 @@ print(type(Arjun))
 
 for a in s :
     print(a)  # cant use (indexing as it dosent hold values at particular fixed place)
-
-
-
