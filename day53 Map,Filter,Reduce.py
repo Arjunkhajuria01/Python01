@@ -51,4 +51,18 @@ print(clean)
 # iterable (like a list).
 
 # Syntax of REDUCE : - 
+from functools import reduce
 
+numbers = [2,3,5,1,8,9,6,7]
+result = reduce (lambda x , y : x+y , numbers)
+print(result)
+
+result2 = reduce (lambda x,y : x*y , numbers)
+print(result2)
+
+
+# with initializer 
+
+num = [1,2,3]
+result3 = reduce (lambda x , y : x+y, num , 10)    # Starts from 10   works as -> (((10+1)+2)+3) = 16
+print(result3)
