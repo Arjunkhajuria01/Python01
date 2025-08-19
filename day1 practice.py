@@ -44,10 +44,69 @@
 # Integer in centimeters
 # Example: "175" → 1.75 (meters), 175 (cm as int).
 
-a= input("enter the Height in centimeters :  ")
+# a = input("enter the Height in centimeters :  ")
+# print(type(a))
 
-b = float(int(a)/100)
-print(b)
+
+# b = float(int(a)/100)
+# print(b)
+
+# c = int(a)
+# print(c)
+
+# Q5) You’re given this list:
+# data = ["10", "20.5", "30", "40.75", "hello", "50"]
+# Convert all values that can be cast into float and ignore the rest.
+# Output should be: [10.0, 20.5, 30.0, 40.75, 50.0].
+
+data = ["10", "20.5", "30", "40.75", "hello", "50"]
+# float_values = [float(num) for num in data]
+# print(float)      # This is not ignoring hello 
+
+# using for loop 
+# for i in data:
+#     i = float(i)
+#     if (i == "hello"):
+#      continue
+# print(i)
+
+# gpt method := 
+# data = ["10", "20.5", "30", "40.75", "hello", "50"]
+# result=[]
+# for i in data :
+#  try:
+#       i = float(i)
+ 
+#  except ValueError:
+#   pass
+# print(i)
+
+# Q6) Convert a decimal number (e.g., 25) into:
+# Binary string ('0b11001')
+# Octal string ('0o31')
+# Hexadecimal string ('0x19')
+
+
+# Q7) A user inputs their marks in 5 subjects in one line separated by spaces (string).
+# Example: "45 67 89 23 90"
+# Convert them into integers and print the average marks.
+
+marks = (input("Enter your marks :"))
+marks_list = marks.split()
+for mark in marks_list : 
+    a = list(int(mark))
+
+print(a)
+    
+
+
+
+
+
+
+
+
+
 
 
 
