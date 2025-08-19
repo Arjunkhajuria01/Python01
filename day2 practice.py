@@ -58,6 +58,7 @@ for i in range(len(a)):
     print(a[i])
     if (a[i+1] == "@"):
         break
+    
 
 
 
