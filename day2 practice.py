@@ -50,15 +50,43 @@
 #  print("not a palindrome")
 
 
+# Q5)
 # Take an email as input and extract the username and domain.
 # Example: "arjun123@gmail.com" → username = "arjun123", domain = "gmail.com".
 
-a = input("Enter the email : ")
-for i in range(len(a)):
-    print(a[i])
-    if (a[i+1] == "@"):
-        break
+# a = input("Enter the email : ")
+# print(a.split("@"))
+# for i in range(len(a)):
+#    if (a[i] == "@"):
+
+
+
+# Q6) Given a sentence:
+# text = "   Python is amazing!   "
+# Remove the extra spaces from both ends
+# Replace "amazing" with "powerful"
+
+# text = "   Python is amazing!   "
+# new_text = text.replace("amazing" , "powerful")
+# print(new_text)
+
+# Q7) write a python program to count the number of vowels and consonents in a string 
+
+a = "arjun is a bad boy to be honest"
+
+for i in range (len(a)):
+    if(a[i] == "a" or a[i] == "e" or a[i] == "i" or a[i] == "o" or a[i] == "u" ):
+      
     
+
+
+
+      
+       
+       
+   
+
+
 
 
 

@@ -1,6 +1,2 @@
-
- 
-# def decoder():
-#   # provide separate code for decoder 
-   
- 
+:
+#    if (a[i] == "@"):
